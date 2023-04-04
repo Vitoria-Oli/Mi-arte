@@ -1,27 +1,20 @@
 <script setup>
 import HeaderVue from '../components/Header.vue';
-import History from '../components/History.vue';
-import Poetry from '../components/Poetry.vue';
-import FooterVue from '../components/Footer.vue'
+import Gallery from '../components/GalleryArt.vue';
 </script>
-
 <template>
-<body>  
+<body>
 <HeaderVue/>
-<History/>
-<Poetry/>
-<FooterVue/>
+<Gallery/>
+
 </body>
 </template>
-
 <style lang="scss" scoped>
 @import "../assets/scss/Variables.scss";
-
 body{
     background-color: $Principal;
 
  
 }
-
 
 </style>

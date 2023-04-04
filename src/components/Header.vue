@@ -9,7 +9,7 @@
 
     <nav>
         <button class="btn">Home</button>
-        <button class="btn">Obras</button>
+        <a href="../views/ArtworksView.vue"></a><button  class="btn">Obras</button>
         <button class="btn">Recomendaciones</button>
     </nav>
 </header>
